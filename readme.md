@@ -6,6 +6,11 @@
 mvn dependency:sources
 mvn dependency:resolve -Dclassifier=javadoc
 ```
+## tips
+
+### 打开windows画图工具
+
+按win+R，输入mspaint
 
 ## 参考文档
 

@@ -1,4 +1,4 @@
-package com.kangfoo.study.opengl;
+package com.kangfoo.study.opengl.shapes;
 
 import com.jogamp.opengl.*;
 import com.jogamp.opengl.awt.GLCanvas;

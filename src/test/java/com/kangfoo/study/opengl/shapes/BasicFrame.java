@@ -1,4 +1,4 @@
-package com.kangfoo.study.opengl;
+package com.kangfoo.study.opengl.shapes;
 
 import com.jogamp.opengl.GLAutoDrawable;
 import com.jogamp.opengl.GLCapabilities;

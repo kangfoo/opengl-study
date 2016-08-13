@@ -1,4 +1,4 @@
-package com.kangfoo.study.opengl;
+package com.kangfoo.study.opengl.shapes;
 
 import com.jogamp.opengl.*;
 import com.jogamp.opengl.awt.GLCanvas;
@@ -14,10 +14,10 @@ public class Line implements GLEventListener {
 
     public void display(GLAutoDrawable drawable) {
         final GL2 gl = drawable.getGL().getGL2();
-        gl.glBegin (GL2.GL_LINES);//static field
-        gl.glVertex3f(0.50f,-0.50f,0);
+        gl.glBegin(GL2.GL_LINES);//static field
+        gl.glVertex3f(0.50f, -0.50f, 0);
 //        gl.glVertex3f(0.80f,0.10f,0);
-        gl.glVertex3f(-0.50f,0.50f,0);
+        gl.glVertex3f(-0.50f, 0.50f, 0);
         gl.glEnd();
     }
     public void dispose(GLAutoDrawable drawable) {

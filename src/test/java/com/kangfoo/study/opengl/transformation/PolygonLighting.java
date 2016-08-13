@@ -3,11 +3,15 @@ package com.kangfoo.study.opengl.transformation;
 import com.jogamp.opengl.*;
 import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.util.FPSAnimator;
-import javafx.scene.effect.Light;
 
 import javax.swing.*;
 
 /**
+ *
+ *  灯光要设置灯光，使用过glEnable()方法初步启用的照明。然后应用照明的对象，
+ *  使用GLLightingFunc接口的 glLightfv(int light, int pname, float[] params, int params_offset)
+ *  方法。这个方法有四个参数。
+ *
  * Created by kangfoo on 2016/8/13.
  */
 public class PolygonLighting implements GLEventListener {
@@ -31,7 +35,7 @@ public class PolygonLighting implements GLEventListener {
         gl.glVertex3f( 0f,-0.5f,0f );
         gl.glEnd();
         gl.glFlush();
-        rpoly +=0.2f;  //assigning the angle
+        rpoly +=0.2f;  //assigning the angle,  施加光到一个旋转多角
         gl.glEnable( GL2.GL_LIGHTING );
         gl.glEnable( GL2.GL_LIGHT0 );
         gl.glEnable( GL2.GL_NORMALIZE );
@@ -60,7 +64,7 @@ public class PolygonLighting implements GLEventListener {
         final GLCanvas glcanvas = new GLCanvas( capabilities );
         PolygonLighting polygonlighting = new PolygonLighting();
         glcanvas.addGLEventListener( polygonlighting );
-        glcanvas.setSize( 1400, 1400 );
+        glcanvas.setSize( 400, 400 );
         //creating frame
         final JFrame frame = new JFrame ( " Polygon lighting " );
         //adding canvas to it

@@ -61,3 +61,11 @@ http://www.jianshu.com/p/9b110a5ba424
 * csdn博客
 
 http://blog.csdn.net/Blues1021/article/category/1288505/3
+
+* OpenGL绘图实例一之机器人的绘制
+
+http://cuiqingcai.com/2467.html
+
+* OpenGL中gl，glu，glut的区别
+
+http://blog.sina.com.cn/s/blog_640531380102v46f.html

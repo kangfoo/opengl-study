@@ -23,7 +23,7 @@ public class SolarMain extends JFrame {
         GLCapabilities glcaps=new GLCapabilities(null);          //这里和之前章节的代码有区别.
         GLCanvas canvas=new GLCanvas(glcaps);
         canvas.addGLEventListener(listener);
-        //canvas.addMouseListener(listener);
+//        canvas.addMouseListener(listener);
         getContentPane().add(canvas, BorderLayout.CENTER);
         animator=new FPSAnimator(canvas,10,true);
 

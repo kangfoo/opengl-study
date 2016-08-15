@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/csv/ColumnMappingColor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/csv/ColumnMappingCoord.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/csv/Coord2dCsvParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/csv/Coord3dCsvParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/csv/CsvParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/csv/SparkChartIO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/BigPicture.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/DemoScatterVBO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/DemoScatterVBO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/DemoScatterVBO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/ScatterGenerator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/ScatterGenerator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/SparkChartOptions.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/SparkRDDChartBuilder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/SparkRDDChartBuilderJavaFX.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/kangfoo/jzy3d/Type.java" charset="UTF-8" />
   </component>
 </project>

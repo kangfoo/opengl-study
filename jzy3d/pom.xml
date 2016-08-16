@@ -3,13 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.kangfoo.study</groupId>
         <artifactId>opengl-study</artifactId>
+        <groupId>com.kangfoo.study</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jzy3d-guide</artifactId>
+<!--
+    version=1.0.0-SNAPSHOT
+    groupId=org.jzy3d
+    artifactId=jzy3d-api
+-->
+    <groupId>org.jzy3d</groupId>
+    <artifactId>jzy3d</artifactId>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>jzy3d-guide</module>
+    </modules>
 
 </project>

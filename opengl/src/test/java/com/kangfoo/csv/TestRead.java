@@ -13,13 +13,13 @@ public class TestRead {
 
             writer = new BufferedWriter(new FileWriter(new File("E:\\work\\study\\opengl-study\\src\\test\\resources\\data\\insert_2.csv")));
 
-            BufferedReader reader = new BufferedReader(new FileReader("E:\\work\\study\\opengl-study\\src\\test\\resources\\data\\INSERET.csv"));//»»³ÉÄãµÄÎÄ¼þÃû
+            BufferedReader reader = new BufferedReader(new FileReader("E:\\work\\study\\opengl-study\\src\\test\\resources\\data\\INSERET.csv"));//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
             String line = null;
 
             int x=0, y ;
 
             while((line=reader.readLine())!=null){
-                String item[] = line.split("\t");//CSV¸ñÊ½ÎÄ¼þÎª¶ººÅ·Ö¸ô·ûÎÄ¼þ£¬ÕâÀï¸ù¾Ý¶ººÅÇÐ·Ö
+                String item[] = line.split("\t");//CSVï¿½ï¿½Ê½ï¿½Ä¼ï¿½Îªï¿½ï¿½ï¿½Å·Ö¸ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¶ï¿½ï¿½ï¿½ï¿½Ð·ï¿½
 
                 for (y=0 ; y<item.length; y++){
                     String s = new String("%s,%s,%s");

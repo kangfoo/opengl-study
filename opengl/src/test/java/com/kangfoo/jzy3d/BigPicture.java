@@ -69,10 +69,10 @@ public class BigPicture {
     public static Chart chart(AbstractDrawable drawable, Type type, String wt, boolean black, Rectangle rect, Quality quality) {
         Chart chart = null;//AWTChartComponentFactory.chart(Quality.Intermediate, wt);
         chart = new AWTChartComponentFactory(){
-            @Override
+
             public Renderer3d newRenderer(View view, boolean traceGL, boolean debugGL) {
                 return new AWTRenderer3d(view, traceGL, debugGL){
-                    @Override
+
                     public void display(GLAutoDrawable canvas) {
                         GL gl = canvas.getGL();
 
@@ -94,7 +94,7 @@ public class BigPicture {
                 };
             }
             
-            @Override
+
             public IAxe newAxe(BoundingBox3d box, View view) {
                 AxeBox axe = new AxeBox(box);
                 axe.setView(view);

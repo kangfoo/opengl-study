@@ -124,4 +124,4 @@ public class Rhombus implements GLEventListener {
         frame.setSize(frame.getContentPane().getPreferredSize());
         frame.setVisible(true);
     }//end of main
-}//end of classimport javax.media.opengl.GL2;
+}//end of classimport com.jogamp.opengl.GL2;

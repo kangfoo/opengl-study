@@ -8,6 +8,19 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/jzy3d/jzy3d-api/1.0.0-SNAPSHOT/jzy3d-api-1.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-api/src/api" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-api/src/awt" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-api/src/bridge" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-api/src/swing" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-api/src/tests" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-javafx/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-jdt-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-jdt-core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-swt/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/jzy3d-tutorials/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-api/src/api" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-depthpeeling/src/api" />
+      <root url="file://$PROJECT_DIR$/../jzy3d/jzy3d-depthpeeling/src/trials" />
     </SOURCES>
   </library>
 </component>

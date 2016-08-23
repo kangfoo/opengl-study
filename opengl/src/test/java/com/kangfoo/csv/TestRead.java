@@ -19,7 +19,7 @@ public class TestRead {
             int x=0, y ;
 
             while((line=reader.readLine())!=null){
-                String item[] = line.split("\t");//CSV��ʽ�ļ�Ϊ���ŷָ����ļ���������ݶ����з�
+                String item[] = line.split("\t");
 
                 for (y=0 ; y<item.length; y++){
                     String s = new String("%s,%s,%s");

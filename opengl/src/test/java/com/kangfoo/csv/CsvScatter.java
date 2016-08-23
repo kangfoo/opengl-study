@@ -42,12 +42,12 @@ public class CsvScatter {
         try {
 
             writer = new BufferedWriter(new FileWriter(new File("E:\\work\\study\\opengl-study\\src\\test\\resources\\data\\insert_2.csv")));
-            BufferedReader reader = new BufferedReader(new FileReader("E:\\work\\study\\opengl-study\\src\\test\\resources\\data\\INSERET.csv"));//»»³ÉÄãµÄÎÄ¼şÃû
+            BufferedReader reader = new BufferedReader(new FileReader("E:\\work\\study\\opengl-study\\src\\test\\resources\\data\\INSERET.csv"));//æ¢æˆä½ çš„æ–‡ä»¶å
             String line = null;
 
             int x=0, y ;
             while((line=reader.readLine())!=null){
-                String item[] = line.split("\t");//CSV¸ñÊ½ÎÄ¼şÎª¶ººÅ·Ö¸ô·ûÎÄ¼ş£¬ÕâÀï¸ù¾İ¶ººÅÇĞ·Ö
+                String item[] = line.split("\t");//CSVæ ¼å¼æ–‡ä»¶ä¸ºé€—å·åˆ†éš”ç¬¦æ–‡ä»¶ï¼Œè¿™é‡Œæ ¹æ®é€—å·åˆ‡åˆ†
 
                 for (y=0 ; y<item.length; y++){
                     String s = new String("%s,%s,%s");
